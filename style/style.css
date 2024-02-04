@@ -441,6 +441,7 @@ picture img{
     margin: 0 auto;
     width: 98.9vw; 
     background: linear-gradient(180deg, #000000, #0000007e);
+    overflow-x: hidden;
 }
 
 .text-footer{
