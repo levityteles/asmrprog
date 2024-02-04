@@ -1,0 +1,119 @@
+.dark-light .ph{
+    padding: 15px;
+}
+.dark-light{
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+body.darkMode{
+    background-color: black;
+    transition: .3s ease-in-out;
+}
+
+.darkMode menu li{
+    color: white;
+}
+
+.darkMode .btns .button-one{
+    color: #ffffff;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+
+.darkMode .btns .button-two{
+    transition: .3s ease-in-out;
+    background-color: #00000067;
+    border: 1px solid #242424;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.darkMode .btns .button-one:hover{
+    background-color: transparent;
+    border: 1px solid #242424;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+.darkMode .btns .button-two:hover{
+    border: 1px solid #242424;
+    color: #ffffff;
+    transition: .3s ease-in-out;
+}
+
+/* HEADER TERMINA AQUI */
+
+.darkMode .texts .light{
+    color: #fff;
+}
+
+.darkMode .texts p{
+    color: #fff;
+}
+
+.darkMode .texts button{
+    color: #fff;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.darkMode .section2 h2{
+    color: #fff;
+}
+
+.darkMode .wallets{
+    padding: 10px;
+    box-shadow: rgba(255, 255, 255, 0.3) 1px 1px 5px;
+    border-radius: 8px;
+}
+
+.darkMode .wallets menu p{
+    color: #fff;
+}
+
+.darkMode .section3 h2{
+    color: #fff;
+}
+
+.darkMode .bloco01 .title, .bloco02 .title, .bloco03 .title, .bloco04 .title{
+    color: #fff;
+}
+
+.darkMode .spacetwo p{
+    color: #fff;
+}
+
+.butao button{
+    padding-top: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+.darkMode .section4 h2{
+    color: #fff;
+}
+
+
+
+.darkMode .break h4{
+    color: #fff;
+}
+
+.darkMode .break p{
+    color: red;
+}
+
+.darkMode .sellers{
+    box-shadow: rgba(255, 255, 255, 0.3) 1px 1px 5px;
+}
+
+.darkMode .futer{
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12%, rgba(121, 9, 9, 0.781) 52%, rgba(255,0,0,1) 100%);
+}
+
+.darkMode .btns .toggle {
+    background-color: transparent;
+    color: white;
+}
