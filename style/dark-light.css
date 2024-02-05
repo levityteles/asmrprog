@@ -12,6 +12,10 @@ body.darkMode{
     transition: .3s ease-in-out;
 }
 
+.darkMode .logo{
+    letter-spacing: 1px;
+}
+
 .darkMode menu li{
     color: white;
 }
@@ -76,7 +80,7 @@ body.darkMode{
     color: #fff;
 }
 
-.darkMode .bloco01 .title, .bloco02 .title, .bloco03 .title, .bloco04 .title{
+.darkMode .bloco01 .title, .darkMode .bloco02 .title, .darkMode .bloco03 .title, .darkMode .bloco04 .title{
     color: #fff;
 }
 
@@ -84,7 +88,7 @@ body.darkMode{
     color: #fff;
 }
 
-.butao button{
+.darkMode .butao button{
     padding-top: 20px;
     color: white;
     background-color: transparent;
