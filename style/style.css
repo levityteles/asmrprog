@@ -448,8 +448,9 @@ picture img{
     justify-content: space-around;
     height: 40vh;
     margin: 0 auto;
-    width: 98.9vw; 
+    width: 98.7vw; 
     background: linear-gradient(180deg, #000000, #0000007e);
+    overflow-x: hidden;
 }
 
 .text-footer{
